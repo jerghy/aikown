@@ -18,7 +18,7 @@ subjects = [
 knowledge_db = []
 
 def save_knowledge():
-    filename = f"knowledge_{int(time.time())}.json"
+    filename = f"result.json"
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(knowledge_db, f, ensure_ascii=False, indent=2)
     print(f"\n已保存{len(knowledge_db)}条知识点到 {filename}")
