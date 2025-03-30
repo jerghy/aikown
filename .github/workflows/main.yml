@@ -1,7 +1,8 @@
 name: Python ai 
 
 on:
-  workflow_dispatch: # 手动触发配置
+  schedule:
+    - cron: '0 */6 * * *'
 
 jobs:
   run-ocr:
