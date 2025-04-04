@@ -1,8 +1,8 @@
 name: Python ai 
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
+  # schedule:
+  #   - cron: '0 */6 * * *'
 
 jobs:
   run-ocr:
